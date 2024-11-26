@@ -1,0 +1,212 @@
+
+.container-fluid{
+    padding: 0px !important;
+    margin: 0px !important;
+
+}
+
+.fondo_telesalud {
+
+    padding: 0px !important;
+    margin: 0px !important;
+
+    /* La imagen de fondo con un gradiente difuminado hacia blanco */
+    background-image: 
+        linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 90%),  /* Gradiente de blanco */
+        url('../img/fondo1.jpg');  /* La imagen de fondo */
+
+    background-size: cover; /* Hace que la imagen cubra toda el área del contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 1000px; /* Estableces la altura del fondo como la de la imagen */
+    width: 100%; /* Asegura que el fondo ocupe todo el ancho del contenedor */
+}
+
+.caja-iconos-telesalud{
+    margin-top: 120px;
+}
+
+.caja-iconos-telesalud a{
+    display: block;
+    text-decoration: none;
+    color: #07ada5;
+    padding: 15px 5px;
+    box-sizing: border-box; 
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.caja-iconos-telesalud a h5{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.caja-iconos-telesalud a:hover{
+    background-color: rgba(255, 246, 221, 0.521);
+    border-radius: 10%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    transform: translateY(-5px); /* Sutil elevación al hacer hover */
+
+}
+
+
+
+.img-icono-telesalud{
+    width: 150px;  /* La imagen ocupará todo el ancho disponible del contenedor */
+    height: auto;  /* Mantiene la proporción original de la imagen */
+}
+
+.caja-titulo{
+    background-color: white;
+}
+
+.titulo-ejes-telesalud{
+    color: #612b9491;
+    font-weight: 800;
+    font-size: 45px;
+    text-align: center;
+    margin: 50px 0;
+    
+}
+
+    /* Estilo para el contenedor del título debajo del video */
+    .video-title {
+        background-color: #07ada5a1; /* Color de fondo */
+        color: white; /* Color de texto */
+        padding: 10px; /* Espaciado dentro del contenedor */
+        text-align: center; /* Centrar el texto */
+        font-size: 20px; /* Tamaño de la fuente */
+        font-weight: bold;
+
+    }
+
+    .contenedor-seccion-eje{
+        margin: 0 30px;
+    }
+
+
+    video{
+        display: block; /* Eliminar espacio debajo del video */
+        margin: 0; /* Eliminar márgenes */
+        padding: 0; /* Eliminar padding */
+    }
+
+    /* Estilo para el título del iframe (presentación de PowerPoint) */
+.iframe-title {
+    background-color: #07ada586; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 10px; /* Espaciado dentro del contenedor */
+    text-align: center; /* Centrar el texto */
+    font-size: 20px; /* Tamaño de la fuente */
+    font-weight: bold;
+    margin-top: 30px; /* Margen superior para separar del contenido anterior */
+}
+
+/* Asegurarse de que el iframe sea responsive */
+iframe {
+    width: 100%;
+    height: 700px; /* Altura predeterminada, pero puedes ajustarla */
+    border: none;
+    display: block;
+    margin: 0 auto; /* Centrar el iframe */
+}
+
+.caja-titulo-ppt{
+    margin-top: 60px;
+    margin-bottom: 0 !important; /* Eliminar cualquier margen inferior extra */
+
+}
+
+#contenedor-seccion-eje{
+    margin-top: 200px;
+}
+
+
+.caja-telecapacitacion {
+    display: flex;              /* Activamos Flexbox */
+    flex-direction: column;     /* Colocamos los elementos (imagen y texto) en una columna */
+    justify-content: center;    /* Centra los elementos verticalmente */
+    align-items: center;        /* Centra los elementos horizontalmente */
+    text-align: center;         /* Asegura que el texto esté centrado */
+    height: 100%;               /* Asegura que el contenedor tenga una altura completa (ajustar según necesidad) */
+}
+
+.caja-telecapacitacion a{
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+}
+
+/*ESTILOS PARA ICONOS TELECAPACITACION*/
+.iconos-telecapacitación {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+/* Efecto de la sombra y desplazamiento */
+.iconos-telecapacitación:hover {
+    transform: scale(1.02); /* Mueve el elemento hacia arriba y lo agranda ligeramente */
+}
+
+/* Estilo para la imagen */
+.img-icono-telesalud {
+    max-width: 50%; /* Hace que la imagen sea un poco más pequeña que el ancho máximo */
+    height: auto;
+    transition: transform 0.3s ease; /* Transición suave para la imagen */
+}
+
+/* Efecto para la imagen cuando se pasa el cursor */
+.iconos-telecapacitación:hover .img-icono-telesalud {
+    transform: scale(1.1); /* Agranda ligeramente la imagen */
+}
+
+/* Estilos para el texto */
+.titulo-icono {
+    margin-top: 10px;
+    font-size: 23px;
+    color: #9b9b9b; /* Color del texto */
+    transition: color 0.3s ease;
+}
+
+
+/*estilos para videos youtubw*/
+
+/* Contenedor que mantiene la relación de aspecto del video */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%; /* Limita el tamaño máximo al 100% del contenedor */
+    background: #000;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Sombra aplicada al contenedor */
+}
+
+/* Estilo para el iframe dentro del contenedor */
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Media query para hacer todo responsivo */
+@media (max-width: 768px) {
+    .video-title, .iframe-title {
+        font-size: 14px; /* Reducir el tamaño del texto en pantallas pequeñas */
+        padding: 8px; /* Reducir el padding */
+    }
+
+    iframe {
+        height: 400px; /* Ajustar altura del iframe en pantallas pequeñas */
+    }
+}

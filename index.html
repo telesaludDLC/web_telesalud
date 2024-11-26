@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Web TeleSalud DLC</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+     <!-- estilos personalizados-->
+     <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #07ada5;">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
+                <div class="sidebar-brand-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">MENU</div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <a class="nav-link scroll-link" href="#seccion1">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Dashboard</span></a>
+            </li>
+
+            <!-- Divider 
+            <hr class="sidebar-divider">-->
+
+            <!-- Heading 
+            <div class="sidebar-heading">
+                Interface
+            </div>-->
+
+            <!-- Nav Item - Pages Collapse Menu
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Components</span>
+                </a>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Custom Components:</h6>
+                        <a class="collapse-item" href="buttons.html">Buttons</a>
+                        <a class="collapse-item" href="cards.html">Cards</a>
+                    </div>
+                </div>
+            </li>-->
+
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link scroll-link" href="#seccion2">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Telecapacitación</span></a>
+            </li>
+
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link scroll-link" href="#seccion3">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Tele-IEC</span></a>
+            </li>
+        
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link scroll-link" href="#">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Telegestión</span></a>
+            </li>
+            
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar)-->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar static-top shadow">
+
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="img/logotipo-diris-lima-centro.png" alt="">
+                        </div>
+                    </div>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid" style="background-color: white;">
+                
+                 <div class="row fondo_telesalud">
+                    <div class="col-12 text-center">
+                        <img src="img/logo.png" alt="">
+
+                        <div class="row caja-iconos-telesalud">
+                            
+                            <div class="col-6 col-md-3 ">
+                                <a href="#seccion1" class="scroll-link">
+                                    <img class="img-icono-telesalud" src="img/satisfaccion.png" alt="">
+                                    <h5>DASHBOARD GENERAL</h5>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-md-3 ">
+                                <a href="#seccion2" class="scroll-link">
+                                    <img class="img-icono-telesalud" src="img/chat-en-vivo.png" alt="">
+                                    <h5>TELECAPACITACIÓN</h5>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-md-3 ">
+                                <a href="#seccion3" class="scroll-link">
+                                    <img class="img-icono-telesalud" src="img/clase-en-linea.png" alt="">
+                                    <h5>TELE-IEC</h5>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-md-3 ">
+                                <a href="#seccion4" class="scroll-link">
+                                    <img class="img-icono-telesalud" src="img/satisfaccion.png" alt="">
+                                    <h5>TELEGESTIÓN</h5>
+                                </a>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                 </div>
+
+                 <div class="row contenedor-seccion-eje" style="margin-top: -100px;">
+                    <div class="caja-titulo col-12" id="seccion1">
+                        <h5 class="titulo-ejes-telesalud"><i class="fas fa-chart-pie" style="font-size: 40px; margin-right: 20px;"></i>DASHBOARD GENERAL</h5>
+                    </div>
+
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiN2JiY2RjNjktY2ZlZC00OTZiLTg3NWEtZGVlOTlmM2NmZmQ1IiwidCI6Ijc0NTZhNWUzLTJlYmUtNGU1Ni04NzQwLWQxNDQ5OTQ4ZmZmMiIsImMiOjR9" style="margin-left: 20px; margin-bottom: 10px;" class="btn btn-dark" target="_blank">Ver en Pantalla completa</a>
+
+                    <div class="col-12" style="margin-top: 0px;">
+                        
+                        <iframe title="Telesalud" width="100%" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiN2JiY2RjNjktY2ZlZC00OTZiLTg3NWEtZGVlOTlmM2NmZmQ1IiwidCI6Ijc0NTZhNWUzLTJlYmUtNGU1Ni04NzQwLWQxNDQ5OTQ4ZmZmMiIsImMiOjR9" frameborder="0" allowFullScreen="true" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);"></iframe>
+
+                    </div>
+
+                 </div>
+
+                 <div class="row contenedor-seccion-eje">
+                    <div class="caja-titulo col-12" style="margin-top: 200px;" id="seccion2">
+                        <h5 class="titulo-ejes-telesalud"><i class="fas fa-chalkboard-teacher" style="font-size: 40px; margin-right: 20px;"></i>TELECAPACITACIÓN</h5>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="row ">
+
+                            <div class="col-lg-6 col-md-12 mb-4">
+
+                                <!-- Título del video 1 -->
+                                <div class="video-title">
+                                    CAPACITACIÓN USO DE TELEATIENDO - UNIDADES FEBRILES
+                                </div>
+
+                                 <div class="video-container">
+                                    <iframe width="300" height="300" src="https://www.youtube.com/embed/HTYXsBGDU64?si=ysdBMjs8mgha4lwi" 
+                                    title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                    </iframe>
+                                 </div>
+
+                                 
+                                <!-- 
+                                <video class="w-100" controls>
+                                    <source src="video/video1.mp4" type="video/mp4">
+                                    Tu navegador no soporta el elemento de video.
+                                </video>-->
+
+                            </div>
+                            
+                            <div class="col-lg-6 col-md-12 mb-4">
+                                <!-- Título del video 1 -->
+                                <div class="video-title">
+                                    PRESTACIONES DE TELESALUD A LOS ASEGURADOS DEL SIS
+                                </div>
+
+                                <div class="video-container">
+                                    <iframe width="300" height="300" src="https://www.youtube.com/embed/SAwZEv9LnXY?si=NxxZTJRNJCOxUNH-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+
+                               
+                                <!-- 
+                                <video class="w-100" controls>
+                                    <source src="video/video2.mp4" type="video/mp4">
+                                    Tu navegador no soporta el elemento de video.
+                                </video>-->
+                            </div>
+
+
+                            <!-- Título para el iframe -->
+                            <div class="caja-titulo-ppt col-12 mb-4">
+
+                                <!-- Button trigger modal -->
+
+                                <div class="row">
+
+                                    <div class="col-6 col-md-4 caja-telecapacitacion">
+                                        <a href="#" class="iconos-telecapacitación" data-toggle="modal" data-target="#ppt_telecapacitacion">
+                                            <img class="img-icono-telesalud" src="img/archivo-nuevo.png" alt="">
+                                            <h5 class="titulo-icono">Como registrar atención de Telesalud</h5>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-6 col-md-4 caja-telecapacitacion">
+                                        <a href="https://drive.google.com/file/d/1gISAm0wwXKMZGzC-fGnQk-JjdwiUzbTi/view" class="iconos-telecapacitación" target="_blank">
+                                            <img class="img-icono-telesalud" src="img/archivo-pdf.png" alt="">
+                                            <h5 class="titulo-icono">Descargar Ficha Técnica N°33 </h5>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-6 col-md-4 caja-telecapacitacion">
+                                        <a href="#" class="iconos-telecapacitación" data-toggle="modal" data-target="#descargar_formatos">
+                                            <img class="img-icono-telesalud" src="img/descargar.png" alt="">
+                                            <h5 class="titulo-icono">Descarga de formatos FAT y Consentimiento informado </h5>
+                                        </a>
+                                    </div>
+                           
+                                </div>
+
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="ppt_telecapacitacion" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Registro de Atencion en Telesalud</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="col-12 mb-4">
+                                                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRxjFj-twBwhp3TUSKxNnzvu6_44LmeA9dfN877oGYa-o_rFEN1jIEysL6uen9kNQ/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- descargar formatos -->
+                                <div class="modal fade" id="descargar_formatos" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Descarga de formatos FAT y Consentimiento informado</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-4 mb-4">
+                                                    <a href="https://docs.google.com/spreadsheets/d/1tJSrVjv-98JKKVL4nboTinCBupuwpJgk/edit?gid=1477761461#gid=1477761461" target="_blank" style="display: flex;flex-direction: column;align-items: center;text-align: center; justify-content: center; padding: 10px; text-decoration: none;">
+                                                        <img src="img/excel.png" alt="">
+                                                        <p>Ver Formato de Atención de Teleinterconsulta (FAT)</p>
+                                                    </a>
+                                                </div>
+    
+                                                <div class="col-4 mb-4">
+                                                    <a href="https://drive.google.com/file/d/1ddPDOFxnDS_IKmflcVgAnqsSau2KYIJT/view" target="_blank" style="display: flex;flex-direction: column;align-items: center;text-align: center; justify-content: center; padding: 10px; text-decoration: none;">
+                                                        <img src="img/excel.png" alt="">
+                                                        <p>Ver consentimiento informado para Teleinterconsultas</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <!-- 
+                                <div class="iframe-title">
+                                    PRESENTACIÓN: REGISTRO Y CODIFICACIÓN DE ATENCIÓN EN TELESALUD 2024
+                                </div>-->
+
+
+                            </div>
+
+                        <!-- Iframe de presentación de PowerPoint 
+                        <div class="col-12 mb-4">
+                            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRxjFj-twBwhp3TUSKxNnzvu6_44LmeA9dfN877oGYa-o_rFEN1jIEysL6uen9kNQ/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                        </div>-->
+
+                        </div>
+
+                    </div>
+
+                 </div>
+
+                 <div class="row caja-teleiec contenedor-seccion-eje" id="contenedor-seccion-eje" >
+                    <div class="caja-titulo col-12" id="seccion3">
+                        <h5 class="titulo-ejes-telesalud"><i class="fas fa-laptop" style="font-size: 40px; margin-right: 20px;"></i>TELE - IEC</h5>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="row ">
+
+                            <div class="col-lg-6 col-md-12 mb-4 caja-video">
+
+                                <!-- Título del video 1 -->
+                                <div class="video-title">
+                                    TELEINTERCONSULTA
+                                </div>
+
+                                <div class="video-container">
+                            
+                                    <iframe width="300" height="300" src="https://www.youtube.com/embed/DGQJOPXzyOI?si=cnwxgafh4WceEf8V" 
+                                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                 </div>
+                                <!-- 
+                                <video class="w-100" controls style="border: 1px solid #07ada5;">
+                                    <source src="video/video3.mp4" type="video/mp4">
+                                    Tu navegador no soporta el elemento de video.
+                                </video>-->
+
+                            </div>
+                            
+                            <div class="col-lg-6 col-md-12 mb-4 caja-video">
+                                <!-- Título del video 1 -->
+                                <div class="video-title">
+                                    TELEMEDICINA: UNA ALTERNATIVA PARA LA ATENCIÓN EN SALUD
+                                </div>
+
+                                
+                                <div class="video-container">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xainnj-1sS8?si=z8U_CCROsPrFwWvZ"
+                                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                                
+
+
+                                <!-- 
+                                <video class="w-100" controls style="border: 1px solid #07ada5;">
+                                    <source src="video/video4.mp4" type="video/mp4">
+                                    Tu navegador no soporta el elemento de video.
+                                </video>-->
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                 </div>
+
+                
+                </div>
+
+
+
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2020</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-home">
+            <div style="margin-top: 5px;">
+                <p style="font-size: 15px;">Inicio</p>
+            </div>
+
+        </i>
+
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <script>
+
+document.querySelectorAll('.scroll-link').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault(); // Evitar el comportamiento por defecto del enlace
+
+    // Obtener el id de la sección de destino desde el href del enlace
+    const targetId = this.getAttribute('href').substring(1);
+    const targetElement = document.getElementById(targetId);
+
+    // Detectar la posición de la sección en la página
+    const targetPosition = targetElement.offsetTop;
+
+    // Realizar el desplazamiento suave
+    smoothScrollTo(targetPosition);
+  });
+});
+
+// Función para realizar el desplazamiento suave
+function smoothScrollTo(targetPosition) {
+  const startPosition = window.pageYOffset; // Posición actual del scroll
+  const distance = targetPosition - startPosition; // Distancia a recorrer
+  const duration = 1000; // Duración del desplazamiento en milisegundos
+  let startTime = null;
+
+  function animation(currentTime) {
+    if (startTime === null) startTime = currentTime;
+    const timeElapsed = currentTime - startTime;
+    const progress = timeElapsed / duration; // Progreso de la animación (entre 0 y 1)
+
+    // Calcular el desplazamiento en función del progreso
+    const currentPosition = startPosition + distance * progress;
+    window.scrollTo(0, currentPosition);
+
+    // Si no se ha completado el desplazamiento, seguir animando
+    if (timeElapsed < duration) {
+      requestAnimationFrame(animation);
+    } else {
+      // Asegurar que llegamos exactamente a la posición final
+      window.scrollTo(0, targetPosition);
+    }
+  }
+
+  requestAnimationFrame(animation);
+}
+
+
+    </script>
+
+
+</body>
+
+</html>
